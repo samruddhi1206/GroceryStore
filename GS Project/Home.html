@@ -1,0 +1,241 @@
+<html>
+<head><title>Grocery Store</title>
+<style>
+body{
+      background-image:url(background1.jpg);
+      background-size:cover;
+      background-attachment:fixed;
+}
+ul{
+      list-style-type:none;
+      margin:0;
+      padding:9px;
+      overflow:hidden;
+      background-color:rgba(38,39,41,.3);
+      
+}
+li{
+      float:left;
+}
+li a{
+      display:block;
+      font-size:1.2em;
+      font-weight: bold;
+      color:black;
+      text-align:center;
+      padding:14px 16px;
+      text-decoration-line:none;
+}
+li a:hover{
+     background-color:white;
+}
+.box{
+      width:800px;
+      height:350px;
+      margin:150px auto;
+      border-radius:20px;
+      border:5px solid #000;
+      background-color:rgba(42,27,171,.3);
+      text-align:center;
+}
+a{
+     color:#000;
+     text-decoration-line:none;
+}
+.box h1{
+      font-size:5em;
+      color:white;
+      margin-top:0;
+      margin-bottom:0.5em;
+      text-shadow:6px 6px 10px black;
+}
+.box p{
+     font-size:2em;
+     color:black;
+}
+.box p1{
+     font-size:1.2em;
+     color:black;
+}
+table{
+      width:100%;
+      height:75px;
+      background-color:rgba(38,39,41,.3);
+      font-size:1em;
+}
+th
+{
+      font-size:2.5em;
+      color:black;
+      text-shadow:6px 6px 10px black;
+}
+input[type=text]
+{
+    border:none;
+    outline:none;
+    border-bottom:2px solid black;
+    border-radius:10px;
+    background:transparent;
+    text-color:aqua;
+}
+::placeholder
+{
+    color:black;
+    font-size:0.9em;
+}
+textarea
+{
+    border:none;
+    outline:none;
+    border-bottom:2px solid black;
+    border-radius:10px;
+    background:transparent;
+    text-color:black;
+    width:50%;
+}
+input[type=submit]
+{
+ width:150px;
+ background-color:rgb(34,171,93);
+ color:black;
+ padding: 8px 10px;
+ margin:8px 0;
+ border:none;
+ border-radius:4px;
+ cursor:pointer;
+ font-weight:bold;
+}
+input[type=submit]:hover{
+ background-color:rgb(18,230,110);
+}
+.container {
+  display: flex;
+  align-items: center; 
+  padding-left: 10%;
+  padding-right: 10%;
+}
+  
+ .image{
+  border-radius:20px;
+  border:2px solid #000;
+  margin:10px auto;
+  
+}
+img{
+  margin-left: 15px ;
+  margin-right: 15px;
+  height:200px;
+  width:300px;
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+img:hover{
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+}
+h3{
+  text-align:center;
+  font-family:times new roman;
+  font-size:2em;
+}
+h1
+{
+      text-align:center;
+      font-size:3em;
+      color:black;
+      text-shadow:6px 6px 10px black;
+}
+.btn
+{
+ background-color:rgb(34,171,93);
+ color:black;
+ padding: 10px 14px;
+ margin:8px 0;
+ border:none;
+ border-radius:4px;
+ cursor:pointer;
+ font-weight:bold;
+}
+.btn:hover{
+ background-color:rgb(18,230,110);
+}
+</style>
+</head>
+<body>
+<ul>
+     
+           <li><a href="Home.html">Home</a></li>
+           <li><a href="#Features">Features</a></td>
+           <li><a href="OurProducts.html">Categories</a></li>
+           <li><a href="#CONTACT">Contacts</a></li>
+           <li><a href="Address.html">Order Now</a></li>
+           <li style="float:right"><a href="a">Add to Cart</a></li>
+     
+</ul>
+<div class="box">
+     <h1>GROCERY STORE</h1>
+     <p>...Fresh And Organic Products For You...</p>
+     <p1>Buy your favorite groceries such as farm fresh vegetables,fresh and organic fruits and any other household essentials in affordable prices at our grocery store</p1><br><br><br>
+     <a href="OurProducts.html" class="btn">BUY NOW</a>
+</div>
+
+<h1><a name="Features">OUR FEATURES</a></h1>
+    <div class="container">
+      <div class="image"> <img src="feature1.jpg"/> 
+	        <h3>Fresh & Organic</h3>
+	  </div> 
+      <div class="image"> <img src="feature2.jpg" /> 
+	         <h3>Free Delivery</h3>
+	  </div> 
+     <div class="image"> <img src="feature3.jpg" /> 
+	         <h3>Easy Payment</h3>
+	 </div> 
+    </div><br><br><br><br>
+
+
+<footer>
+     <table>
+        <tr><th><a name="CONTACT">CONTACT US</a></th></tr>
+        <tr><td align=center>...GET IN TOUCH...<hr /></td>
+           <td><b>Name</b></td>
+           <td></td>
+        </tr>
+        <tr><td><b>Call Us</b><br />+91-8767899765</td>
+           <td><input type="text" name="name" placeholder="Enter your name"</td>
+           <td></td>
+        </tr>
+        <tr><td><b>Email</b><br />grocerystore@gmail.com</td>
+           <td><b>Email</b></td>
+           <td></td>
+        </tr>
+        <tr>
+            <td><b>Location</b><br />Grocery Store,Shop no.07,Shivaji Peth,Karad-416 306</td>
+            <td><input type="text" name="email" placeholder="Enter a valid email id"</td>
+            <td></td>
+        </tr>
+        <tr><td></td>
+             <td><b>Address</b></td>
+             <td></td>
+        </tr>
+        <tr><td></td>
+           <td><textarea name="text" rows="1" cols="20" placeholder="Enter your address"></textarea></td>
+           <td></td>
+        </tr>
+        <tr><td></td>
+            <td><b>Message</b></td>
+            <td></td>
+        </tr>
+        <tr><td></td>
+            <td><textarea name="text" rows="1" cols="15" placeholder="Message" required></textarea></td>
+            <td></td>
+        </tr>
+        <tr><td></td>
+            <td><input type="submit" value="Submit"</td>
+        </tr>
+     </table>
+     
+</footer>
+</body>
+</html>
